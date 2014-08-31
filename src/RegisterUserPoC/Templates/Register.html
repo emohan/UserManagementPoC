@@ -1,0 +1,21 @@
+﻿<h3>Sign Up</h3>
+<section ng-init="init()">
+    <div class="row">
+        <label class="text-info col-md-2">Username</label>
+        <input type="text" class="input-sm col-md-3" ng-model="user.username" />
+    </div>
+    <br />
+    <div class="row">
+        <label class="text-info col-md-2">Password</label>
+        <input type="password" class="input-sm col-md-3" ng-model="user.password" />
+    </div>
+    <span class="text-danger" ng-if="error">Confirmation doesn't match password</span>
+    <br />
+    <div class="row">
+        <label class="text-info col-md-2">Confirm Password</label>
+        <input type="password" class="input-sm col-md-3" ng-model="user.passwordConfirmation" />
+    </div>
+    <br />
+    <a class="btn btn-link col-md-pull-0 col-md-1" href="#/">Back</a>
+    <span class="btn btn-primary col-md-push-1 col-md-2" data-ng-disabled="!(user.username && user.password && user.passwordConfirmation)" ng-click="registerUser()">Submit</span>
+</section>

@@ -1,0 +1,6 @@
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\bin\RegisterUserPoC.dll.config
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\bin\RegisterUserPoC.dll
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\bin\RegisterUserPoC.pdb
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\obj\Release\RegisterUserPoC.csprojResolveAssemblyReference.cache
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\obj\Release\RegisterUserPoC.dll
+C:\Users\Pragati\Documents\Visual Studio 2013\Projects\UserRegistrationPoC\RegisterUserPoC\obj\Release\RegisterUserPoC.pdb

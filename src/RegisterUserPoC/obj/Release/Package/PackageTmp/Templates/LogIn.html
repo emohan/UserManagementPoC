@@ -1,0 +1,24 @@
+﻿<div style="position: absolute; left: 0; right: 0; top: -50px; bottom: 0; width: 305px; height: 240px; margin: auto; padding: 10px 20px; border: 1px solid gray;">
+    <h3>Log In</h3>
+    <section ng-init="init()">
+        <label class="text-danger" ng-if="wrongPass">Wrong password or login!</label>
+        <div class="row">
+            <label class="text-info col-md-4">Username</label>
+            <input type="text" class="input-sm col-md-7" ng-model="user.username" />
+        </div>
+        <br />
+        <div class="row">
+            <label class="text-info col-md-4">Password</label>
+            <input type="password" class="input-sm col-md-7" ng-model="user.password" />
+        </div>
+        <br />
+        <div>
+            <div style="float: right;">
+                <span class="btn btn-primary" data-ng-disabled="!(user.username && user.password)" ng-click="logIn()">Log In</span>
+            </div>
+            <div>
+                <a style="cursor: pointer" href="#/register/">Sign Up</a>
+            </div>
+        </div>
+    </section>
+</div>
